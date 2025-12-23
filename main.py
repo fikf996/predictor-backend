@@ -50,3 +50,7 @@ def predict(data: PredictionRequest):
         "prediction": prediction,
         "confidence": confidence
     }
+
+handler = app
+
+
